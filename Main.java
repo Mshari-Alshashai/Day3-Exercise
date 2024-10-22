@@ -56,13 +56,13 @@ public class Main {
 //4.Write a program that takes a numeric score as input and prints the corresponding letter grade using the following grading scale: A: 90-100 B: 80-89 C: 70-79 D: 60-69 F: 0-59
         System.out.println("Enter your Score: ");
         int score=input.nextInt();
-        if(90<score && score<100) {
+        if(89<score && score<100) {
             System.out.println("A");
-        } else if (80<score && score<90) {
+        } else if (79<score && score<90) {
             System.out.println("B");
-        } else if (70<score && score<80) {
+        } else if (69<score && score<80) {
             System.out.println("C");
-        } else if (60<score && score<70) {
+        } else if (59<score && score<70) {
             System.out.println("D");
         } else System.out.println("F");
 
